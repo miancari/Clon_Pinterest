@@ -1,0 +1,133 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+    color: #111111;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+#navbar-pinterest {
+    height: 72px;
+    padding: 4px 16px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+#navbar-pinterest a {
+    text-decoration: none;
+    font-weight: 600;
+}
+ 
+#pinterest-icon {
+    display: inline-block;
+    background-image: url(/imagenes/pinterest_logo_icon_147250.png);
+    width: 27px;
+    height: 27px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+
+.navbar-inicio {
+    display: flex;
+    background-color: black;
+    color:white;
+    width: 72px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+}
+
+.finder {
+    width: 1300PX;
+    height: 48px;
+    border-radius: 30px;
+    padding: 16px 0 0 0;
+    background-color: rgb(233, 233, 233);
+    background-image: url(/imagenes/search.png);
+    background-size: 18px 18px;
+    background-position: 10px 15px;
+    background-repeat: no-repeat;
+    padding: 0px 40px;
+    border: none;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+}
+
+#notifications {
+    display: inline-block;
+    background-image: url(/imagenes/notificacion.svg);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+
+nav div:hover {
+    background-color: rgb(212, 210, 210);
+    border-radius: 50%;
+}
+
+#messaje {
+    display: inline-block;
+    background-image: url(/imagenes/message.svg);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ #profile {
+    display: inline-block;
+    background-image: url(/imagenes/M.png);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+ }
+
+#content {
+    column-count: 5;
+    margin: 0 50px;
+}
+
+.card-image {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.card-image img {
+    width: 100%;
+    border-radius: 30px; 
+}    
+
+.card-image img:hover {
+    height: 100%;
+    transform: scale(1.09);
+    opacity: 0.5;
+}
+
+.icons {
+    background-image: url(/imagenes/tres-pequenos-puntos.png);
+    background-image: url(/imagenes/upload.svg);
+    width: 20px;
+   
+}
+
+.card-image img .icons {
+    
+}
